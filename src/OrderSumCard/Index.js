@@ -14,6 +14,7 @@ function Index() {
         style={{
           height: "auto",
           width: "100%",
+          borderRadius: "1rem 1rem 0rem 0rem",
         }}
       />
       <Container>
@@ -48,12 +49,12 @@ function Index() {
             </Row>
             <Row>
               <Col>
-                <Button>Proceed</Button>
+                <button className="proceed-btn">Proceed to Payment</button>
               </Col>
             </Row>
-            <Row>
-              <Col>
-                <Button>Cancel</Button>
+            <Row className="mb-3">
+              <Col className="cancle-btn m-3" style={{ textAlign: "center" }}>
+                Cancel Order
               </Col>
             </Row>
           </Col>

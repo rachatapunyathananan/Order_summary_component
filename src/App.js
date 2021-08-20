@@ -4,7 +4,7 @@ import OrderSumCard from "./OrderSumCard/Index";
 
 function App() {
   return (
-    <Container>
+    <Container className="bg-dark" style={{ height: "100%", padding: "1rem" }}>
       <OrderSumCard />
     </Container>
   );
